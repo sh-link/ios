@@ -20,5 +20,4 @@
 #import "FileUtil.h"
 #import "IPUtil.h"
 #include "Macro.h"
-#import "MBProgressHUD+MJ.h"
 #endif
