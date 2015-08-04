@@ -17,35 +17,23 @@
 
 @implementation ViewController
 {
-    NSMutableArray *array;
+   
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    array = [NSMutableArray new];
 
-//    SHRectangleButton *button = [SHRectangleButton new];
-//    button.frame = CGRectMake(100, 100, 150, 30);
-//    [self.view addSubview:button];
-//    [button setTitle:@"hello" forState:UIControlStateNormal];
-//    button.inSearching = true;
-    YZSearchRotationButton *button = [YZSearchRotationButton new];
-    button.frame = CGRectMake(50, 100, 100, 40);
-    [self.view addSubview:button];
-    [button setTitle:@"hello" forState:UIControlStateNormal] ;
-    button.inSearching = true;
-    [button setBackgroundColor:[UIColor blueColor]];
-    [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
-    //[button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-    [button setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
 }
 
--(void)buttonClick:(YZSearchRotationButton*)button
+-(void)viewWillAppear:(BOOL)animated
 {
-    button.inSearching = !button.inSearching;
-   
+    
 }
 
-
+-(void)viewDidAppear:(BOOL)animated
+{
+    
+    [[YZCustomDialog new] showWithOkHanlder:nil cancelHandler:nil];
+}
 
 
 

@@ -15,6 +15,8 @@
 		9D5F31731B6A2293003A24DD /* DialogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5F31721B6A2293003A24DD /* DialogUtil.m */; };
 		9D5F31761B6A29DC003A24DD /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5F31751B6A29DC003A24DD /* FileUtil.m */; };
 		9D76FFC81B6B0B59003BEED4 /* IPUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D76FFC71B6B0B59003BEED4 /* IPUtil.m */; };
+		9D7B8E981B709DD300D11637 /* YZCustomDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7B8E971B709DD300D11637 /* YZCustomDialog.m */; };
+		9D7B8E9B1B70AE9600D11637 /* YZInsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7B8E9A1B70AE9600D11637 /* YZInsetsLabel.m */; };
 		9D8129491B70507900972AB2 /* YZSearchRotationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8129481B70507900972AB2 /* YZSearchRotationButton.m */; };
 		9DDE4E801B68C49900130D02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDE4E7F1B68C49900130D02 /* main.m */; };
 		9DDE4E831B68C49900130D02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDE4E821B68C49900130D02 /* AppDelegate.m */; };
@@ -58,6 +60,10 @@
 		9D76FFC61B6B0B59003BEED4 /* IPUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPUtil.h; sourceTree = "<group>"; };
 		9D76FFC71B6B0B59003BEED4 /* IPUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPUtil.m; sourceTree = "<group>"; };
 		9D76FFC91B6B0D50003BEED4 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		9D7B8E961B709DD300D11637 /* YZCustomDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZCustomDialog.h; sourceTree = "<group>"; };
+		9D7B8E971B709DD300D11637 /* YZCustomDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZCustomDialog.m; sourceTree = "<group>"; };
+		9D7B8E991B70AE9600D11637 /* YZInsetsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZInsetsLabel.h; sourceTree = "<group>"; };
+		9D7B8E9A1B70AE9600D11637 /* YZInsetsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZInsetsLabel.m; sourceTree = "<group>"; };
 		9D8129461B70483100972AB2 /* YZLayers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZLayers.h; sourceTree = "<group>"; };
 		9D8129471B70507900972AB2 /* YZSearchRotationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSearchRotationButton.h; sourceTree = "<group>"; };
 		9D8129481B70507900972AB2 /* YZSearchRotationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSearchRotationButton.m; sourceTree = "<group>"; };
@@ -111,6 +117,10 @@
 				9D52E7C01B6F6ECD00063370 /* YZViews.h */,
 				9D8129471B70507900972AB2 /* YZSearchRotationButton.h */,
 				9D8129481B70507900972AB2 /* YZSearchRotationButton.m */,
+				9D7B8E961B709DD300D11637 /* YZCustomDialog.h */,
+				9D7B8E971B709DD300D11637 /* YZCustomDialog.m */,
+				9D7B8E991B70AE9600D11637 /* YZInsetsLabel.h */,
+				9D7B8E9A1B70AE9600D11637 /* YZInsetsLabel.m */,
 			);
 			path = YZViews;
 			sourceTree = "<group>";
@@ -324,6 +334,7 @@
 				9D76FFC81B6B0B59003BEED4 /* IPUtil.m in Sources */,
 				9D5F316D1B6A17CE003A24DD /* UserDefaultsUtil.m in Sources */,
 				9D52E7C41B6F734E00063370 /* YZSearchRotationLayer.m in Sources */,
+				9D7B8E9B1B70AE9600D11637 /* YZInsetsLabel.m in Sources */,
 				9DDE4EA81B68C55C00130D02 /* ThreadUtil.m in Sources */,
 				9D8129491B70507900972AB2 /* YZSearchRotationButton.m in Sources */,
 				9DDE4EB21B68F1D200130D02 /* ScreenUtil.m in Sources */,
@@ -331,6 +342,7 @@
 				9DDE4EAB1B68ECEC00130D02 /* ToastUtil.m in Sources */,
 				9D52E7BA1B6F5A6A00063370 /* YZTextField.m in Sources */,
 				9DDE4E831B68C49900130D02 /* AppDelegate.m in Sources */,
+				9D7B8E981B709DD300D11637 /* YZCustomDialog.m in Sources */,
 				9DDE4E801B68C49900130D02 /* main.m in Sources */,
 				9D5F31701B6A1EF4003A24DD /* ImageUtil.m in Sources */,
 			);

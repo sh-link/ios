@@ -19,7 +19,7 @@
 
 +(void)showLongToast:(NSString *)toast
 {
-    [self showToast:toast duration:4];
+    [self showToast:toast duration:2];
 }
 
 +(void)showShortToast:(NSString *)toast

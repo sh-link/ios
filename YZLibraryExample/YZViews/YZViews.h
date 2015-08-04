@@ -10,4 +10,6 @@
 #define YZLibraryExample_YZViews_h
 #import "YZTextField.h"
 #import "YZSearchRotationButton.h"
+#import "YZCustomDialog.h"
+#import "YZInsetsLabel.h"
 #endif
